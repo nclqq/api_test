@@ -1,0 +1,72 @@
+{
+  "uid" : "bbec278579975e4c",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+  "fullName" : "testcase.E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+  "historyId" : "a1e81c0d2c0ab13cdd057b1aa8b309d4",
+  "time" : {
+    "start" : 1554609849041,
+    "stop" : 1554609849275,
+    "duration" : 234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: ",
+  "statusTrace" : "self = <testcase.user.test_user_register.Test_Register object at 0x00000224E7C28160>\n\n    @allure.story(\"注册\")\n    @pytest.mark.debug\n    def test_register(self):\n        register_path='/user/saveOrUpdateUser'\n    \n        register_data = {\n            'nickName':self.nickName,\n            'userName':self.mobile\n        }\n        # 调用httpUtil的post方法\n        resp_login = http.post(register_path, register_data)\n        assert resp_login['code']==401\n        # assert resp_login['msg'] == '操作成功'\n    \n        Test_Login().test_login_success()\n        Test_LoadUserList().test_loadUserList()\n>       Test_LoadUserInfo().test_loadUserInfo()\n\ntestcase\\user\\test_user_register.py:36: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\ntestcase\\user\\test_user_loadUserInfo.py:20: in test_loadUserInfo\n    resp_login = http.post(login_path, login_data)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <util.httpUtil.HttpUtil object at 0x00000224E70BBEF0>\npath = '/user/loadUserInfo ', data = {'id': 1297}\n\n    def post(self,path,data):\n        proxies = CommonData.proxies\n        host = CommonData.host\n        data_json = json.dumps(data)\n        if CommonData.token is not None:\n            self.headers['token'] = CommonData.token\n        resp_login = self.http.post(url=host+path,\n                         proxies=proxies,\n                         data=data_json,\n                         headers=self.headers\n                         )\n>       assert resp_login.status_code==200  #校验返回码是否为200  http中的status_code\nE       AssertionError\n\nutil\\httpUtil.py:24: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "注册-登录-列表判断id-获取用户信息模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201709061439"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "注册"
+  }, {
+    "name" : "thread",
+    "value" : "6300-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bbec278579975e4c.json",
+  "parameterValues" : [ ]
+}

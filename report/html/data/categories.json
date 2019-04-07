@@ -1,0 +1,145 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 411 == 200",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+        "uid" : "4539c157f7ec73e5",
+        "parentUid" : "27fdb63db359f2228afe33b562c383e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554609848233,
+          "stop" : 1554609848431,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27fdb63db359f2228afe33b562c383e9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 301 == 200",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_LoadUserInfo.test_loadUserInfo",
+        "uid" : "162de11db590ab95",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848819,
+          "stop" : 1554609848839,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_Login.test_login_success",
+        "uid" : "5aaac14a90a87d4b",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848839,
+          "stop" : 1554609848857,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+        "uid" : "f4d9abcda1dbb953",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848858,
+          "stop" : 1554609848903,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_Login.test_login_success",
+        "uid" : "572fa6fad1d5c798",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848903,
+          "stop" : 1554609848925,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_login.Test_Login.test_login_success",
+        "uid" : "b49baf291dc72bdd",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848926,
+          "stop" : 1554609848954,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+        "uid" : "394b34451f0cffe2",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848955,
+          "stop" : 1554609848981,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserList.test_loadUserList",
+        "uid" : "96dcb567af013ea6",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848981,
+          "stop" : 1554609849022,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+        "uid" : "3a0570eaa206a270",
+        "parentUid" : "0800b724af28bfab6c64aa32ff112475",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609849023,
+          "stop" : 1554609849040,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0800b724af28bfab6c64aa32ff112475"
+    }, {
+      "name" : "AssertionError: ",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+        "uid" : "bbec278579975e4c",
+        "parentUid" : "fcd162b570a8b3223f492d623fcdc98d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609849041,
+          "stop" : 1554609849275,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fcd162b570a8b3223f492d623fcdc98d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "9a35f9338305d5ee",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength",
+  "fullName" : "testcase.E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength",
+  "historyId" : "c89c598aac0b0a12f901c7a6538d4175",
+  "time" : {
+    "start" : 1554609848756,
+    "stop" : 1554609848774,
+    "duration" : 18
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录用户模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201709061439"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "用户名15位"
+  }, {
+    "name" : "thread",
+    "value" : "6300-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a35f9338305d5ee.json",
+  "parameterValues" : [ ]
+}

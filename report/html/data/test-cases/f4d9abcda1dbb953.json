@@ -1,0 +1,72 @@
+{
+  "uid" : "f4d9abcda1dbb953",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+  "fullName" : "testcase.E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+  "historyId" : "b08f59ee75284a8e83631f466aa13d91",
+  "time" : {
+    "start" : 1554609848858,
+    "stop" : 1554609848903,
+    "duration" : 45
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 301 == 200",
+  "statusTrace" : "self = <testcase.user.test_user_loadUserList.Test_LoadUserList object at 0x00000224E7C9E048>\n\n    @allure.story(\"加载用户列表\")\n    def test_loadUserList(self):\n        userList_path='/user/loadUserList'\n        userList_data = {\n            'pageSize': 30,\n            'pageCurrent':1\n        }\n        # 调用httpUtil的post方法\n        resp_login = http.post(userList_path, userList_data)\n    \n        print(resp_login['object']['list'][0]['id'])\n>       print(self.testLogin.test_login_success())\n\ntestcase\\user\\test_user_loadUserList.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.user.test_user_login.Test_Login object at 0x00000224E7C21358>\n\n    @allure.story(\"登录成功\")\n    def test_login_success(self):\n        login_path='/sys/login'\n        login_data = {\n            'userName':common.newUserName,\n            'password':common.admin_password\n        }\n        # 调用httpUtil的post方法\n        resp_login = http.post(login_path, login_data)\n    \n>       assert resp_login['code']==200\nE       assert 301 == 200\n\ntestcase\\user\\test_user_login.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "user下的加载用户列表"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201709061439"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "加载用户列表"
+  }, {
+    "name" : "thread",
+    "value" : "6300-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f4d9abcda1dbb953.json",
+  "parameterValues" : [ ]
+}

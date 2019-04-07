@@ -1,0 +1,201 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+      "uid" : "4539c157f7ec73e5",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "broken",
+      "time" : {
+        "start" : 1554609848233,
+        "stop" : 1554609848431,
+        "duration" : 198
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+      "uid" : "ca087910b729ea47",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848459,
+        "stop" : 1554609848711,
+        "duration" : 252
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_pwderror",
+      "uid" : "42cef4f02e925f09",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848712,
+        "stop" : 1554609848741,
+        "duration" : 29
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotExit",
+      "uid" : "8491c5e2d9908d4e",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848742,
+        "stop" : 1554609848756,
+        "duration" : 14
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength",
+      "uid" : "9a35f9338305d5ee",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848756,
+        "stop" : 1554609848774,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNull",
+      "uid" : "3128aa1afafbd2ce",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848774,
+        "stop" : 1554609848789,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uPwdNull",
+      "uid" : "d14a97e19e29a516",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1554609848789,
+        "stop" : 1554609848817,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_LoadUserInfo.test_loadUserInfo",
+      "uid" : "162de11db590ab95",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848819,
+        "stop" : 1554609848839,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_Login.test_login_success",
+      "uid" : "5aaac14a90a87d4b",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848839,
+        "stop" : 1554609848857,
+        "duration" : 18
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+      "uid" : "f4d9abcda1dbb953",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848858,
+        "stop" : 1554609848903,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_Login.test_login_success",
+      "uid" : "572fa6fad1d5c798",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848903,
+        "stop" : 1554609848925,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_login.Test_Login.test_login_success",
+      "uid" : "b49baf291dc72bdd",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848926,
+        "stop" : 1554609848954,
+        "duration" : 28
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+      "uid" : "394b34451f0cffe2",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848955,
+        "stop" : 1554609848981,
+        "duration" : 26
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserList.test_loadUserList",
+      "uid" : "96dcb567af013ea6",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609848981,
+        "stop" : 1554609849022,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+      "uid" : "3a0570eaa206a270",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609849023,
+        "stop" : 1554609849040,
+        "duration" : 17
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+      "uid" : "bbec278579975e4c",
+      "parentUid" : "559e15d0a5469c40d1629e36b5ae40ea",
+      "status" : "failed",
+      "time" : {
+        "start" : 1554609849041,
+        "stop" : 1554609849275,
+        "duration" : 234
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}

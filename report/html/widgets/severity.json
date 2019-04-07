@@ -1,0 +1,161 @@
+[ {
+  "uid" : "d14a97e19e29a516",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uPwdNull",
+  "time" : {
+    "start" : 1554609848789,
+    "stop" : 1554609848817,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbec278579975e4c",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+  "time" : {
+    "start" : 1554609849041,
+    "stop" : 1554609849275,
+    "duration" : 234
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3128aa1afafbd2ce",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNull",
+  "time" : {
+    "start" : 1554609848774,
+    "stop" : 1554609848789,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "162de11db590ab95",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_LoadUserInfo.test_loadUserInfo",
+  "time" : {
+    "start" : 1554609848819,
+    "stop" : 1554609848839,
+    "duration" : 20
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b49baf291dc72bdd",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_login.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554609848926,
+    "stop" : 1554609848954,
+    "duration" : 28
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca087910b729ea47",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554609848459,
+    "stop" : 1554609848711,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "394b34451f0cffe2",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+  "time" : {
+    "start" : 1554609848955,
+    "stop" : 1554609848981,
+    "duration" : 26
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8491c5e2d9908d4e",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotExit",
+  "time" : {
+    "start" : 1554609848742,
+    "stop" : 1554609848756,
+    "duration" : 14
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96dcb567af013ea6",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserList.test_loadUserList",
+  "time" : {
+    "start" : 1554609848981,
+    "stop" : 1554609849022,
+    "duration" : 41
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4d9abcda1dbb953",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+  "time" : {
+    "start" : 1554609848858,
+    "stop" : 1554609848903,
+    "duration" : 45
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "42cef4f02e925f09",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_pwderror",
+  "time" : {
+    "start" : 1554609848712,
+    "stop" : 1554609848741,
+    "duration" : 29
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a35f9338305d5ee",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength",
+  "time" : {
+    "start" : 1554609848756,
+    "stop" : 1554609848774,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5aaac14a90a87d4b",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554609848839,
+    "stop" : 1554609848857,
+    "duration" : 18
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "4539c157f7ec73e5",
+  "name" : "E:\\testCityApi\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+  "time" : {
+    "start" : 1554609848233,
+    "stop" : 1554609848431,
+    "duration" : 198
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "572fa6fad1d5c798",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554609848903,
+    "stop" : 1554609848925,
+    "duration" : 22
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a0570eaa206a270",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+  "time" : {
+    "start" : 1554609849023,
+    "stop" : 1554609849040,
+    "duration" : 17
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

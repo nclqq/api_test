@@ -1,0 +1,72 @@
+{
+  "uid" : "394b34451f0cffe2",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+  "fullName" : "testcase.E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+  "historyId" : "efad6d0f784d9412b34a355083454c1",
+  "time" : {
+    "start" : 1554609848955,
+    "stop" : 1554609848981,
+    "duration" : 26
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 301 == 200",
+  "statusTrace" : "self = <testcase.user.test_user_loadUserInfo.Test_LoadUserInfo object at 0x00000224E7CD3518>\n\n    @allure.story(\"获取用户信息\")\n    def test_loadUserInfo(self):\n        login_path='/user/loadUserInfo '\n        login_data = {\n>           'id':Test_Login().test_login_success()\n        }\n\ntestcase\\user\\test_user_loadUserInfo.py:17: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <testcase.user.test_user_login.Test_Login object at 0x00000224E7CD36D8>\n\n    @allure.story(\"登录成功\")\n    def test_login_success(self):\n        login_path='/sys/login'\n        login_data = {\n            'userName':common.newUserName,\n            'password':common.admin_password\n        }\n        # 调用httpUtil的post方法\n        resp_login = http.post(login_path, login_data)\n    \n>       assert resp_login['code']==200\nE       assert 301 == 200\n\ntestcase\\user\\test_user_login.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "user下的获取用户信息"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201709061439"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "thread",
+    "value" : "6300-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "394b34451f0cffe2.json",
+  "parameterValues" : [ ]
+}

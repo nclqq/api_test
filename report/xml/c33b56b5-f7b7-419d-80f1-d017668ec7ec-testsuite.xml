@@ -1,0 +1,510 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554609848233" stop="1554609849275">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554609848233" status="broken" stop="1554609848431">
+      <name>E:\testCityApi\testcase\sys.test_sys_changePwd.Test_changePwd.test_changePwd</name>
+      <failure>
+        <message>AssertionError: assert 411 == 200</message>
+        <stack-trace>self = &lt;testcase.sys.test_sys_changePwd.Test_changePwd object at 0x00000224E7C4B748&gt;
+
+    @allure.story("修改密码成功")
+    # @pytest.mark.info
+    @pytest.mark.usefixtures("changePwd_return")
+    def test_changePwd(self):
+        login_data = {
+            'userId': self.common.userId,
+            'userName': self.common.my_mobile,
+            'oldPwd': self.common.admin_password,
+            'password': self.common.error_pwd
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(self.login_path, login_data)
+&gt;       assert resp_login['code'] == 200
+E       assert 411 == 200
+
+testcase\sys\test_sys_changePwd.py:25: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="修改密码模块"/>
+        <label name="story" value="修改密码成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848459" status="passed" stop="1554609848711">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_success</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="用户名密码都正确"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848712" status="passed" stop="1554609848741">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_pwderror</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="密码错误"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848742" status="passed" stop="1554609848756">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_uNameNotExit</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="用户名不存在"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848756" status="passed" stop="1554609848774">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="用户名15位"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848774" status="passed" stop="1554609848789">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_uNameNull</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="用户名为空"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848789" status="passed" stop="1554609848817">
+      <name>E:\testCityApi\testcase\sys.test_sys_login.Test_Login.test_login_fail_uPwdNull</name>
+      <attachments/>
+      <labels>
+        <label name="feature" value="登录用户模块"/>
+        <label name="story" value="密码为空"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848819" status="failed" stop="1554609848839">
+      <name>E:\testCityApi\testcase\user.test_user_loadUserInfo.Test_LoadUserInfo.test_loadUserInfo</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_loadUserInfo.Test_LoadUserInfo object at 0x00000224E7C9A898&gt;
+
+    @allure.story("获取用户信息")
+    def test_loadUserInfo(self):
+        login_path='/user/loadUserInfo '
+        login_data = {
+&gt;           'id':Test_Login().test_login_success()
+        }
+
+testcase\user\test_user_loadUserInfo.py:17: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7C9A9E8&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的获取用户信息"/>
+        <label name="story" value="获取用户信息"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848839" status="failed" stop="1554609848857">
+      <name>E:\testCityApi\testcase\user.test_user_loadUserInfo.Test_Login.test_login_success</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7C9E588&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的登录模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848858" status="failed" stop="1554609848903">
+      <name>E:\testCityApi\testcase\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_loadUserList.Test_LoadUserList object at 0x00000224E7C9E048&gt;
+
+    @allure.story("加载用户列表")
+    def test_loadUserList(self):
+        userList_path='/user/loadUserList'
+        userList_data = {
+            'pageSize': 30,
+            'pageCurrent':1
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(userList_path, userList_data)
+    
+        print(resp_login['object']['list'][0]['id'])
+&gt;       print(self.testLogin.test_login_success())
+
+testcase\user\test_user_loadUserList.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7C21358&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的加载用户列表"/>
+        <label name="story" value="加载用户列表"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848903" status="failed" stop="1554609848925">
+      <name>E:\testCityApi\testcase\user.test_user_loadUserList.Test_Login.test_login_success</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7CD38D0&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的登录模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848926" status="failed" stop="1554609848954">
+      <name>E:\testCityApi\testcase\user.test_user_login.Test_Login.test_login_success</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7CC3C18&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的登录模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848955" status="failed" stop="1554609848981">
+      <name>E:\testCityApi\testcase\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_loadUserInfo.Test_LoadUserInfo object at 0x00000224E7CD3518&gt;
+
+    @allure.story("获取用户信息")
+    def test_loadUserInfo(self):
+        login_path='/user/loadUserInfo '
+        login_data = {
+&gt;           'id':Test_Login().test_login_success()
+        }
+
+testcase\user\test_user_loadUserInfo.py:17: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7CD36D8&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的获取用户信息"/>
+        <label name="story" value="获取用户信息"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609848981" status="failed" stop="1554609849022">
+      <name>E:\testCityApi\testcase\user.test_user_register.Test_LoadUserList.test_loadUserList</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_loadUserList.Test_LoadUserList object at 0x00000224E7CD49E8&gt;
+
+    @allure.story("加载用户列表")
+    def test_loadUserList(self):
+        userList_path='/user/loadUserList'
+        userList_data = {
+            'pageSize': 30,
+            'pageCurrent':1
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(userList_path, userList_data)
+    
+        print(resp_login['object']['list'][0]['id'])
+&gt;       print(self.testLogin.test_login_success())
+
+testcase\user\test_user_loadUserList.py:24: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7C21358&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的加载用户列表"/>
+        <label name="story" value="加载用户列表"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609849023" status="failed" stop="1554609849040">
+      <name>E:\testCityApi\testcase\user.test_user_register.Test_Login.test_login_success</name>
+      <failure>
+        <message>AssertionError: assert 301 == 200</message>
+        <stack-trace>self = &lt;testcase.user.test_user_login.Test_Login object at 0x00000224E7CE79E8&gt;
+
+    @allure.story("登录成功")
+    def test_login_success(self):
+        login_path='/sys/login'
+        login_data = {
+            'userName':common.newUserName,
+            'password':common.admin_password
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(login_path, login_data)
+    
+&gt;       assert resp_login['code']==200
+E       assert 301 == 200
+
+testcase\user\test_user_login.py:21: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="user下的登录模块"/>
+        <label name="story" value="登录成功"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1554609849041" status="failed" stop="1554609849275">
+      <name>E:\testCityApi\testcase\user.test_user_register.Test_Register.test_register</name>
+      <failure>
+        <message>AssertionError: </message>
+        <stack-trace>self = &lt;testcase.user.test_user_register.Test_Register object at 0x00000224E7C28160&gt;
+
+    @allure.story("注册")
+    @pytest.mark.debug
+    def test_register(self):
+        register_path='/user/saveOrUpdateUser'
+    
+        register_data = {
+            'nickName':self.nickName,
+            'userName':self.mobile
+        }
+        # 调用httpUtil的post方法
+        resp_login = http.post(register_path, register_data)
+        assert resp_login['code']==401
+        # assert resp_login['msg'] == '操作成功'
+    
+        Test_Login().test_login_success()
+        Test_LoadUserList().test_loadUserList()
+&gt;       Test_LoadUserInfo().test_loadUserInfo()
+
+testcase\user\test_user_register.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+testcase\user\test_user_loadUserInfo.py:20: in test_loadUserInfo
+    resp_login = http.post(login_path, login_data)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;util.httpUtil.HttpUtil object at 0x00000224E70BBEF0&gt;
+path = '/user/loadUserInfo ', data = {'id': 1297}
+
+    def post(self,path,data):
+        proxies = CommonData.proxies
+        host = CommonData.host
+        data_json = json.dumps(data)
+        if CommonData.token is not None:
+            self.headers['token'] = CommonData.token
+        resp_login = self.http.post(url=host+path,
+                         proxies=proxies,
+                         data=data_json,
+                         headers=self.headers
+                         )
+&gt;       assert resp_login.status_code==200  #校验返回码是否为200  http中的status_code
+E       AssertionError
+
+util\httpUtil.py:24: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="注册-登录-列表判断id-获取用户信息模块"/>
+        <label name="story" value="注册"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6300-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

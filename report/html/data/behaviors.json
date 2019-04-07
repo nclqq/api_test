@@ -1,0 +1,265 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "修改密码成功",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_changePwd.Test_changePwd.test_changePwd",
+        "uid" : "4539c157f7ec73e5",
+        "parentUid" : "a38462b3f4314282ccc0eb63786aa59e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1554609848233,
+          "stop" : 1554609848431,
+          "duration" : 198
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a38462b3f4314282ccc0eb63786aa59e"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "登录用户模块",
+    "children" : [ {
+      "name" : "用户名密码都正确",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_success",
+        "uid" : "ca087910b729ea47",
+        "parentUid" : "71d4f64aef80582e6d81cba00e8c92ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848459,
+          "stop" : 1554609848711,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71d4f64aef80582e6d81cba00e8c92ac"
+    }, {
+      "name" : "密码错误",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_pwderror",
+        "uid" : "42cef4f02e925f09",
+        "parentUid" : "8d05239d065edb3905aa646d1bd5f5f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848712,
+          "stop" : 1554609848741,
+          "duration" : 29
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d05239d065edb3905aa646d1bd5f5f9"
+    }, {
+      "name" : "用户名不存在",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotExit",
+        "uid" : "8491c5e2d9908d4e",
+        "parentUid" : "5399abf37aedea38fbf9068aee4ddaf6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848742,
+          "stop" : 1554609848756,
+          "duration" : 14
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5399abf37aedea38fbf9068aee4ddaf6"
+    }, {
+      "name" : "用户名15位",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNotTrueLength",
+        "uid" : "9a35f9338305d5ee",
+        "parentUid" : "0a8eb82700ca29d2b9894f4bbeb1d96c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848756,
+          "stop" : 1554609848774,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0a8eb82700ca29d2b9894f4bbeb1d96c"
+    }, {
+      "name" : "用户名为空",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uNameNull",
+        "uid" : "3128aa1afafbd2ce",
+        "parentUid" : "37a8552d5a6e00f536507051a5a3c980",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848774,
+          "stop" : 1554609848789,
+          "duration" : 15
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "37a8552d5a6e00f536507051a5a3c980"
+    }, {
+      "name" : "密码为空",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\sys.test_sys_login.Test_Login.test_login_fail_uPwdNull",
+        "uid" : "d14a97e19e29a516",
+        "parentUid" : "85e1deb25c0a61b0dfa68bb8ed8908c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1554609848789,
+          "stop" : 1554609848817,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85e1deb25c0a61b0dfa68bb8ed8908c6"
+    } ],
+    "uid" : "46e58c070797468135d0ba6034ab9d53"
+  }, {
+    "name" : "user下的获取用户信息",
+    "children" : [ {
+      "name" : "获取用户信息",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_LoadUserInfo.test_loadUserInfo",
+        "uid" : "162de11db590ab95",
+        "parentUid" : "f9565ec1e80cb40bd2a92133a884f6f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848819,
+          "stop" : 1554609848839,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserInfo.test_loadUserInfo",
+        "uid" : "394b34451f0cffe2",
+        "parentUid" : "f9565ec1e80cb40bd2a92133a884f6f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848955,
+          "stop" : 1554609848981,
+          "duration" : 26
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9565ec1e80cb40bd2a92133a884f6f1"
+    } ],
+    "uid" : "12a6cf755536dfc4f60c7de16fa4af74"
+  }, {
+    "name" : "user下的登录模块",
+    "children" : [ {
+      "name" : "登录成功",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserInfo.Test_Login.test_login_success",
+        "uid" : "5aaac14a90a87d4b",
+        "parentUid" : "75168c8e5a57140563fb21abe15e1065",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848839,
+          "stop" : 1554609848857,
+          "duration" : 18
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_Login.test_login_success",
+        "uid" : "572fa6fad1d5c798",
+        "parentUid" : "75168c8e5a57140563fb21abe15e1065",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848903,
+          "stop" : 1554609848925,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_login.Test_Login.test_login_success",
+        "uid" : "b49baf291dc72bdd",
+        "parentUid" : "75168c8e5a57140563fb21abe15e1065",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848926,
+          "stop" : 1554609848954,
+          "duration" : 28
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+        "uid" : "3a0570eaa206a270",
+        "parentUid" : "75168c8e5a57140563fb21abe15e1065",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609849023,
+          "stop" : 1554609849040,
+          "duration" : 17
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75168c8e5a57140563fb21abe15e1065"
+    } ],
+    "uid" : "ae7705764e187773224b729442a732bf"
+  }, {
+    "name" : "user下的加载用户列表",
+    "children" : [ {
+      "name" : "加载用户列表",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_loadUserList.Test_LoadUserList.test_loadUserList",
+        "uid" : "f4d9abcda1dbb953",
+        "parentUid" : "273b6298038069304a456c4678022abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848858,
+          "stop" : 1554609848903,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_LoadUserList.test_loadUserList",
+        "uid" : "96dcb567af013ea6",
+        "parentUid" : "273b6298038069304a456c4678022abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609848981,
+          "stop" : 1554609849022,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "273b6298038069304a456c4678022abd"
+    } ],
+    "uid" : "8ab48062eb785559ef13f481a93471ad"
+  }, {
+    "name" : "注册-登录-列表判断id-获取用户信息模块",
+    "children" : [ {
+      "name" : "注册",
+      "children" : [ {
+        "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Register.test_register",
+        "uid" : "bbec278579975e4c",
+        "parentUid" : "5bac231fbcb01d97c5fa07bf828496ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1554609849041,
+          "stop" : 1554609849275,
+          "duration" : 234
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5bac231fbcb01d97c5fa07bf828496ea"
+    } ],
+    "uid" : "c1ef8deebf2d55265cd5dc1e1fa2f12e"
+  } ]
+}

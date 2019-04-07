@@ -1,0 +1,72 @@
+{
+  "uid" : "3a0570eaa206a270",
+  "name" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+  "fullName" : "testcase.E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success",
+  "historyId" : "b35ddc74f891879ea1d999c480d020aa",
+  "time" : {
+    "start" : 1554609849023,
+    "stop" : 1554609849040,
+    "duration" : 17
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 301 == 200",
+  "statusTrace" : "self = <testcase.user.test_user_login.Test_Login object at 0x00000224E7CE79E8>\n\n    @allure.story(\"登录成功\")\n    def test_login_success(self):\n        login_path='/sys/login'\n        login_data = {\n            'userName':common.newUserName,\n            'password':common.admin_password\n        }\n        # 调用httpUtil的post方法\n        resp_login = http.post(login_path, login_data)\n    \n>       assert resp_login['code']==200\nE       assert 301 == 200\n\ntestcase\\user\\test_user_login.py:21: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "user下的登录模块"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "SC-201709061439"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "登录成功"
+  }, {
+    "name" : "thread",
+    "value" : "6300-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "testcase"
+  }, {
+    "name" : "testClass",
+    "value" : "testcase"
+  }, {
+    "name" : "testMethod",
+    "value" : "E:\\testCityApi\\testcase\\user.test_user_register.Test_Login.test_login_success"
+  }, {
+    "name" : "package",
+    "value" : "testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3a0570eaa206a270.json",
+  "parameterValues" : [ ]
+}
