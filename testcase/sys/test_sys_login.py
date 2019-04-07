@@ -2,7 +2,7 @@
 #from conftest import http,common
 
 
-@allure.feature("登录用户模块")
+#@allure.feature("登录用户模块")
 #class Test_Login:
 
     # 测试用例体
