@@ -19,7 +19,8 @@ class CommonData:
 
     #注册
     nickName="nncc"
-    newUserName=None
+    newUserName=""
+    newUserId=0
 
 
     token=None

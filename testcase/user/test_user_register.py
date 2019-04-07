@@ -13,9 +13,11 @@ class Test_Register:
     # login=Test_Login()
     # userList=Test_LoadUserList()
     # userInfo=Test_LoadUserInfo()
+
     nickName = str(random.randint(10000000, 100000000))  # 前包后不包
     mobile = '135' + nickName
     common.newUserName=mobile
+
     # 测试用例体
     @allure.story("注册")
     @pytest.mark.debug
@@ -31,7 +33,7 @@ class Test_Register:
         assert resp_login['code']==401
         # assert resp_login['msg'] == '操作成功'
 
-        Test_Login().test_login_success()
+        Test_Login().test_userLogin()
         Test_LoadUserList().test_loadUserList()
         Test_LoadUserInfo().test_loadUserInfo()
 

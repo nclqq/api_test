@@ -1,0 +1,20 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1554635619736" stop="1554635619892">
+  <name>testcase</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1554635619736" status="passed" stop="1554635619892">
+      <name>E:\testCityApi\testcase\user.test_user_register.Test_Register.test_register</name>
+      <attachments/>
+      <labels>
+        <label name="story" value="注册"/>
+        <label name="feature" value="注册-登录-列表判断id-获取用户信息模块"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="12556-MainThread"/>
+        <label name="host" value="SC-201709061439"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

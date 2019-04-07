@@ -22,6 +22,7 @@ class HttpUtil:
                          headers=self.headers
                          )
         assert resp_login.status_code==200  #校验返回码是否为200  http中的status_code
+
         resp_json=resp_login.text  #获取response响应的body值
         resplogin_dict = json.loads(resp_json)  #将body值转为dict
         return resplogin_dict

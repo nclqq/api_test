@@ -12,13 +12,14 @@ def session_fixture():
     # 定义字典，添加登录传入的数据
     login_data={}
     login_data['userName']=common.admin_moblie
-    # login_data['userName'] = common.my_mobile
+    # login_data['userName'] = common.my_mobile  #修改密码时调用
     login_data['password']=common.admin_password
     #调用httpUtil的post方法
     resp_login=http.post(login_path,login_data)
     #获取token
     CommonData.token=resp_login['object']['token']
-    CommonData.userId=resp_login["object"]["userId"]
+    CommonData.userId=resp_login["object"]["userId"]   #管理员的id
+    print(CommonData.userId)
     #断言
     assert resp_login['code'] == 200  #返回中的code
     print('登录成功')

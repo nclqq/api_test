@@ -1,0 +1,16 @@
+[
+  "testcase/sys/test_sys_changePwd.py::Test_changePwd::()::test_changePwd",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_success",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_fail_pwderror",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_fail_uNameNotExit",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_fail_uNameNotTrueLength",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_fail_uNameNull",
+  "testcase/sys/test_sys_login.py::Test_Login::()::test_login_fail_uPwdNull",
+  "testcase/user/test_user_loadUserInfo.py::Test_LoadUserInfo::()::test_loadUserInfo",
+  "testcase/user/test_user_loadUserList.py::Test_LoadUserList::()::test_loadUserList",
+  "testcase/user/test_user_login.py::Test_Login::()::test_userLogin",
+  "testcase/user/test_user_register.py::Test_LoadUserInfo::()::test_loadUserInfo",
+  "testcase/user/test_user_register.py::Test_LoadUserList::()::test_loadUserList",
+  "testcase/user/test_user_register.py::Test_Login::()::test_userLogin",
+  "testcase/user/test_user_register.py::Test_Register::()::test_register"
+]
